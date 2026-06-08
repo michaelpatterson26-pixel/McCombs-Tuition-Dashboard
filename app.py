@@ -113,7 +113,6 @@ if not df.empty:
 
         # 6. Visualizing the Price Delta 
         st.subheader("The Value Gap: How Much More/Less Do Peer Programs Cost?")
-        st.markdown("Bars showing **above $0** represent programs more expensive than McCombs. Bars **below $0** are cheaper.")
         
         altair_chart = (
             alt.Chart(chart_df)
